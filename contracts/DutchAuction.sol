@@ -6,7 +6,7 @@ pragma solidity ^0.6.9;
 
 import "./Utils/SafeMathPlus.sol";
 
-contract DutchSwapAuction  {
+contract DutchAuction  {
 
     using SafeMathPlus for uint256;
     /// @dev The placeholder ETH address.

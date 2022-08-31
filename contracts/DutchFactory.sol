@@ -9,7 +9,7 @@ import "../interfaces/IOwned.sol";
 import "../interfaces/IERC20.sol";
 import "../interfaces/IDutchAuction.sol";
 
-contract DutchSwapFactory is  Owned, CloneFactory {
+contract DutchFactory is  Owned, CloneFactory {
     using SafeMathPlus for uint256;
 
     address public dutchAuctionTemplate;
